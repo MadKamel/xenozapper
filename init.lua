@@ -6,7 +6,7 @@ minetest.register_tool("xenozapper:zapper", {
 	tool_capabilities = {
 		full_punch_interval = 0.01,
 		max_drop_level=1,
-		damage_groups = {fleshy=3},
+		damage_groups = {fleshy=2},
 	}
 })
 
