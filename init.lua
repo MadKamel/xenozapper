@@ -38,7 +38,7 @@ minetest.register_craft({
 	output = "xenozapper:basher",
 	recipe = {
 		{"default:steel_ingot", "", "default:steel_ingot"},
-		{"", "xenozapper:zapper", ""},
-		{"", "default:steelblock", ""}
+		{"default:mese_fragment", "default:copper_block", "default:mese_fragment"},
+		{"", "xenozapper:zapper", ""}
 	}
 })
