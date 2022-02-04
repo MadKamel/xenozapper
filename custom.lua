@@ -16,7 +16,7 @@ minetest.register_craft({
 	output = "xenozapper:zapper",
 	recipe = {
 		{"mk_items:iron_rod", "", "mk_items:iron_rod"},
-		{"mk_items:iron_plate", "mk_items:copper_coil", "mk_items:iron_plate"},
+		{"mk_items:iron_plate", "mk_items:power_supply", "mk_items:iron_plate"},
 		{"", "mk_items:iron_frame", ""}
 	}
 })
@@ -39,8 +39,8 @@ minetest.register_tool("xenozapper:basher", {
 minetest.register_craft({
 	output = "xenozapper:basher",
 	recipe = {
-		{"default:steel_ingot", "", "default:steel_ingot"},
-		{"default:mese_crystal_fragment", "default:copperblock", "default:mese_crystal_fragment"},
+		{"mk_items:steel_rod", "", "mk_items:steel_rod"},
+		{"mk_items:framed_iron_plate", "mk_items:motor", "mk_items:framed_iron_plate"},
 		{"", "xenozapper:zapper", ""}
 	}
 })
